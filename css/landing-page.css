@@ -45,6 +45,7 @@ body{
   flex-direction: column;
   align-items: center;
   margin:0;
+  
   background-color: var(--lightCyan);
 }
 
@@ -58,6 +59,7 @@ span{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 5em;
 }
 
 
@@ -66,7 +68,6 @@ span{
   background-image: url('../img/bg-hero-mobile.svg');
   background-repeat: no-repeat;
   height: 95vh;
-  width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -90,6 +91,18 @@ span{
   width: 80%;
 }
 
+.portrait-images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0.5em;
+}
+
+.portrait-images img{
+  width: 90% 
+}
+
 #creative-space{
   text-align: center;
   width: 90%;
@@ -99,17 +112,6 @@ span{
   transform: skewY(-2deg);
 }
 
-.portrait-images{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin:0.5em;
-}
-
-.portrait-images img{
-  width: 90% 
-}
 
 #lists{
   text-align: left;
@@ -128,7 +130,14 @@ span{
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+  #intro{
+    flex-direction: row;
+  }
 
+  .portrait-images{
+    height: 95vh;
+  }
+  
 }
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
