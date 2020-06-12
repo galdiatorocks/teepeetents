@@ -1,4 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+:root{
+  --lightCyan: hsl(193, 100%, 96%);
+  --pastelBlue: #36c9d3;
+  --pink: #f58e89;
+  --navy: #0f1629;
+  --purple: #6a2b84;
+  --grey: #332733;
+  --font: 'Fjalla One', sans-serif;
+
+}
+
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left:0;
+  background-color: var(--lightCyan);
+  opacity: 90%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  height: 4em;
+}
+
+#nav-logo{
+  height:90%;
+  margin: 0;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 3em;
+  font-weight: 1000;
+}
+
+#nav-logo img{
+  height: 90%;
+  margin: 0;
+}
+
+body{
+  font: var(--navy);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0;
+  background-color: var(--lightCyan);
+}
+
+span{
+  font-family: var(--font);
+  text-transform: uppercase;
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#intro-text{
+  
+  background-image: url('../img/bg-hero-mobile.svg');
+  background-repeat: no-repeat;
+  height: 95vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#intro h1{
+  font-family: var(--font);
+  text-transform: uppercase;
+  font-family: var(--font);
+  font-weight: bolder;
+  font-size: 3rem;
+  margin:2em 0em;
+  line-height: 1.5em;
+}
+
+#intro p{
+  text-align: justify;
+  width: 80%;
+}
+
+#creative-space{
+  text-align: center;
+  width: 90%;
+  margin:0.5em;
+  background-color: var(--pink);
+  transform: skewX(-14deg);
+  transform: skewY(-2deg);
+}
+
+.portrait-images{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0.5em;
+}
+
+.portrait-images img{
+  width: 90% 
+}
+
+#lists{
+  text-align: left;
+  background-color: var(--pastelBlue);
+  margin: 0.5em;
+  width: 90%
+}
+
+#fixed{
+  background-color: var(--pink);
+  background-image: url('../img/babyfic-tent-house-for-kids.jpeg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
