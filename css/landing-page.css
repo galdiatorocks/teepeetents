@@ -63,7 +63,7 @@ span{
 
 #intro-text{
   
-  background-image: url('img/bg-hero-mobile.svg');
+  background-image: url('../img/bg-hero-mobile.svg');
   background-repeat: no-repeat;
   height: 95vh;
   width: 100%;
