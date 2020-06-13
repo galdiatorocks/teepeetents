@@ -95,6 +95,10 @@ span{
   z-index:2;
 }
 
+#text-container{
+  width: 90%;
+}
+
 #text-container h1{
   text-transform: uppercase;
   font-family: var(--font);
