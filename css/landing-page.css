@@ -18,12 +18,13 @@ nav{
   position: fixed;
   top: 0;
   left:0;
-  background-color: var(--lightCyan);
+  background-color: white;
   opacity: 90%;
   width: 100%;
   margin: 0;
   padding:0;
   height: 4em;
+  z-index:3;
 }
 
 #nav-logo{
@@ -86,7 +87,7 @@ span{
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .65;
+    opacity: .55;
     z-index: 1;
     mix-blend-mode: hard-light; 
 }
@@ -108,6 +109,9 @@ span{
   font-weight: normal;
 }
 
+#text-container b{
+  background-color: gold;
+}
 
 #intro h4{
   font-weight: 100;
