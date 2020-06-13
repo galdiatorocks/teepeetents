@@ -68,7 +68,7 @@ span{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 75vh;
+  height: 85vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -86,32 +86,27 @@ span{
     left: 0;
     right: 0;
     bottom: 0;
-    display: block;
-    opacity: .85;
-  height: 75vh;
-  z-index: 1;
-  mix-blend-mode: hard-light;
-  
+    opacity: .65;
+    z-index: 1;
+    mix-blend-mode: hard-light; 
 }
 
 .intro-text > *{
   z-index:2;
 }
 
-#intro h1{
-  font-family: var(--font);
+#text-container h1{
   text-transform: uppercase;
   font-family: var(--font);
-  font-weight: bolder;
   font-size: 1rem;
-  margin:2em 0em;
-  line-height: 1em;
+  margin:1em 0em;
+  line-height: 2em;
+  font-weight: normal;
 }
 
 
-#intro p{
-  text-align: justify;
-  width: 60%;
+#intro h4{
+  font-weight: 100;
 }
 
 .portrait-images{
@@ -219,6 +214,10 @@ span{
 
   #text-container{
     width: 60%;
+  }
+
+  #text-container h1{
+    font-size: 2rem;
   }
 
 }
