@@ -68,7 +68,7 @@ span{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 85vh;
+  height: 75vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -88,8 +88,7 @@ span{
     bottom: 0;
     display: block;
     opacity: .85;
-    background-size: 100vw 85vh;
-  height: 85vh;
+  height: 75vh;
   z-index: 1;
   mix-blend-mode: hard-light;
   
